@@ -1,4 +1,4 @@
-const food = (pos, color) => {
+const Food = (pos, color) => {
 
     const x = pos.x
     const y = pos.y
@@ -14,8 +14,8 @@ const food = (pos, color) => {
         ctx.lineWidth = 3
         ctx.stroke()
         ctx.closePath()
-        
+
     }
 }
 
-export default food
+export default Food

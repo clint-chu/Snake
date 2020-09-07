@@ -1,5 +1,5 @@
-const { createContext } = require("react")
-const { default: food } = require("./food")
+import React from "react"
+import Food from "./food"
 
 const Snake = (pos, color) => {
 
@@ -85,3 +85,5 @@ const Snake = (pos, color) => {
     }
 
 }
+
+export default Snake
