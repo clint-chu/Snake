@@ -1,3 +1,5 @@
+import Food from "./components/food"
+
 let width;
 let height;
 let tileSize;
@@ -16,5 +18,7 @@ const board = () => {
     canvas.width = width
     canvas.height = height
     ctx = canvas.getContext("2d")
+
+    food = new Food(spawnLocation(), "red")
 
 }
