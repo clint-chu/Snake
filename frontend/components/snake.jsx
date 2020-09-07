@@ -79,7 +79,7 @@ const Snake = (pos, color) => {
     const border = () => {
         if (x + tileSize > width && velX != -1 || x < 0 && velX !=1) {
             x = width - x
-        } else if (y + tileSize > height && velY != -1 ||  velY ~= 1 && y < 0) {
+        } else if (y + tileSize > height && velY != -1 ||  velY != 1 && y < 0) {
             y = height - y
         }
     }
