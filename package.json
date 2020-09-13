@@ -1,0 +1,27 @@
+{
+  "name": "snake",
+  "version": "1.0.0",
+  "description": "Play Snake",
+  "main": "index.js",
+  "dependencies": {
+    "create-react-app": "^3.4.1",
+    "react": "^16.13.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "nothing"
+  },
+  "repository": {
+    "type": "module",
+    "url": "git+https://github.com/clint-chu/Snake.git"
+  },
+  "keywords": [
+    "Snake"
+  ],
+  "author": "Clint",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clint-chu/Snake/issues"
+  },
+  "homepage": "https://github.com/clint-chu/Snake#readme"
+}
